@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Inconsolata:wght@200..900&display=swap');
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'consolata', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+.container {
+    max-widt: 1100px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #f8f9fa;
+    padding: 150px 0 100px 0;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    color: #36d3e7;
+    padding:  20px;
+    font-size: 16px;
+    display: block;
+}
+.menu .navbar ul li a:hover {
+    color: #ff4027;
+    background-color: #36d3e7;
+}
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    color: #36d3e7;
+    text-transform: uppercase;
+}
+#menu {
+    display: none;
+}
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+.menu label {
+    display: none;
+    cursor: pointer;
+}
+
+.header .content {
+    display:flex;
+}
+.header .text {
+width: 50%;    
+}
+.header .text h1 {
+    line-height: 1;
+    color: #36d3e7;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+.header .text p {
+    color: #670086;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 50%;
+}
+.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #36d3e7;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.about ´{
+padding: 100px;
+display: flex;
+}
+.about .img {
+    width: 50%;
+}
+.about .img img {
+    width: 100%;
+    border-radius: 15px;
+}
+.about-txt {
+    width: 50%;
+    margin-left: 25px;
+}
+.about-txt h2 {
+    color: #131d1f88;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about-txt p {
+    color: #ff002288;
+    font-size: 20px;
+    
+}
+.Drogas {
+    padding: 100px;
+    text-align: center;
+    background-color: #0080ff;
+}
+.Drogas h2 {
+    color: #32fc00;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Drogas-content {
+    margin-top :55px;
+    display: flex;
+    justify-content: space-between;
+}
+
